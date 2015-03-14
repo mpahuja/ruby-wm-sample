@@ -1,4 +1,1 @@
-== Use the following steps to setup for WSB Ruby Automation
-
-https://confluence.int.godaddy.com/pages/viewpage.action?pageId=20743709
 
