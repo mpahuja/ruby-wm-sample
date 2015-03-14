@@ -1,0 +1,7 @@
+checkout_button: {class: "checkout"}
+cart_item_name: {class: "cart-item-name"}
+remove_item: {class: "remove"}
+sign_out_link: {class: "logout"}
+empty_cart: {class: "empty-cart"}
+item_count: {class: "item-count"}
+

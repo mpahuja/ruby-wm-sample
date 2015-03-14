@@ -1,0 +1,4 @@
+search_item_text_field: {id: "txt20"}
+search_go_button: {class: "search-go"}
+collection: {class: "collection"}
+

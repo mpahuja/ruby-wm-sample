@@ -1,0 +1,2 @@
+add_to_cart_button: {class: "add-to-cart"}
+product_name: {class: "item-page-header"}

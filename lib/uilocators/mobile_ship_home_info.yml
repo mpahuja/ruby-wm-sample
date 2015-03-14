@@ -1,0 +1,8 @@
+street_address_1: {name: "address[street1]"}
+street_address_2: {name: "address[street2]"}
+zip_code: {name: "address[zip]"}
+city: {name: "address[city]"}
+state: {name: "address[state]"}
+phone_number: {name: "phoneNumber"}
+preferred_shipping_address_check_box: {name: "preferred"}
+

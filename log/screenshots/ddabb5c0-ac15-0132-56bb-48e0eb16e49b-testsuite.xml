@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1426295830759" stop="1426295874881">
+  <name>Mobile Page</name>
+  <title>Mobile Page</title>
+  <test-cases>
+    <test-case start="1426295830761" stop="1426295874879" status="passed">
+      <name>Mobile Page should add an item to cart </name>
+      <title>Mobile Page should add an item to cart </title>
+      <steps/>
+      <attachments/>
+      <labels/>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels/>
+</ns2:test-suite>

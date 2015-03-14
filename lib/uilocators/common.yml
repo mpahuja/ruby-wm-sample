@@ -1,0 +1,6 @@
+cart_size: {class: "cart-size"}
+h2_tag: {tag_name: "h2"}
+div_tag: {tag_name: "div"}
+continue_button: {class: "continue"}
+cart_link: {xpath: ".//*[contains(@data-name,'Cart')]"}
+

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1426230346991" stop="1426230386699">
+  <name>Check Minification</name>
+  <title>Check Minification</title>
+  <test-cases>
+    <test-case start="1426230346992" stop="1426230386697" status="passed">
+      <name>Check Minification WSB-1011 ; Designer: verify builder.js does not exist </name>
+      <title>Check Minification WSB-1011 ; Designer: verify builder.js does not exist </title>
+      <steps/>
+      <attachments/>
+      <labels/>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels/>
+</ns2:test-suite>

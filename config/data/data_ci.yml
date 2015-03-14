@@ -1,0 +1,20 @@
+defaults: &defaults
+  common:
+    driver_type: local
+    log_level: debug
+    use_parallel: true
+    browser_version: chrome
+    remote_machine_ip: 1.1.1.1
+    street_address_1: 850 Cherry Ave
+    zip_code: 94066
+    city: San Bruno
+    state: CA
+    phone_number: 213-422-1234
+
+prod:
+  <<: *defaults
+  envdata:
+    app_url: mobile.walmart.com
+    email_address: manoj.test1@gmail.com
+    email_password: Walmart123!
+

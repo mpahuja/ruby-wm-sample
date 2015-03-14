@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1426292892096" stop="1426292942392">
+  <name>Mobile Page</name>
+  <title>Mobile Page</title>
+  <test-cases>
+    <test-case start="1426292892098" stop="1426292942390" status="broken">
+      <name>Mobile Page should add an item to cart </name>
+      <title>Mobile Page should add an item to cart </title>
+      <failure>
+        <message>uninitialized class variable @@ship in Walmart::Mobile::ShipInfoHelper</message>
+        <stack-trace>/Users/mpahuja/dev/ruby-automation/lib/helpers/ship_info_helper.rb:17:in `set_shipping_address'&#xD;
+/Users/mpahuja/dev/ruby-automation/spec/integration/tools_spec.rb:29:in `block (2 levels) in &lt;top (required)&gt;'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:152:in `instance_exec'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:152:in `block in run'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:222:in `call'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:222:in `call'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-retry-0.3.0/lib/rspec/retry.rb:36:in `block (3 levels) in apply'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-retry-0.3.0/lib/rspec/retry.rb:27:in `times'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-retry-0.3.0/lib/rspec/retry.rb:27:in `block (2 levels) in apply'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:322:in `instance_exec'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:322:in `instance_exec'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/hooks.rb:380:in `execute_with'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/hooks.rb:446:in `block (2 levels) in run'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:222:in `call'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:222:in `call'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/hooks.rb:445:in `run'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/hooks.rb:500:in `run'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:331:in `with_around_example_hooks'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:149:in `run'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example_group.rb:490:in `block in run_examples'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example_group.rb:486:in `map'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example_group.rb:486:in `run_examples'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example_group.rb:453:in `run'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/runner.rb:111:in `block (2 levels) in run_specs'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/runner.rb:111:in `map'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/runner.rb:111:in `block in run_specs'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/reporter.rb:53:in `report'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/runner.rb:107:in `run_specs'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/runner.rb:85:in `run'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/runner.rb:69:in `run'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/runner.rb:37:in `invoke'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/exe/rspec:4:in `&lt;top (required)&gt;'&#xD;
+/Users/mpahuja/dev/ruby-automation/bin/rspec:16:in `load'&#xD;
+/Users/mpahuja/dev/ruby-automation/bin/rspec:16:in `&lt;top (required)&gt;'&#xD;
+-e:1:in `load'&#xD;
+-e:1:in `&lt;main&gt;'</stack-trace>
+      </failure>
+      <steps/>
+      <attachments>
+        <attachment source="e8120a51ec98e32fa2996991b7840960b7516bee42c99a4db3d33cd53e80fe7e-attachment.png" title="should_add_an_item_to_cart_" size="129128" type="image/png"/>
+      </attachments>
+      <labels/>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels/>
+</ns2:test-suite>

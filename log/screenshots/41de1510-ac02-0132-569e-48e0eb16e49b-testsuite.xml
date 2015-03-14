@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1426287445035" stop="1426287453047">
+  <name>Mobile Page</name>
+  <title>Mobile Page</title>
+  <test-cases>
+    <test-case start="1426287445037" stop="1426287453044" status="broken">
+      <name>Mobile Page should add an item to cart </name>
+      <title>Mobile Page should add an item to cart </title>
+      <failure>
+        <message>unknown error: unhandled inspector error: {"code":-32603,"message":"Cannot navigate to invalid URL"}
+  (Session info: chrome=41.0.2272.89)
+  (Driver info: chromedriver=2.7.236836,platform=Mac OS X 10.10.2 x86_64)</message>
+        <stack-trace>/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/remote/response.rb:52:in `assert_ok'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/remote/response.rb:15:in `initialize'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/remote/http/common.rb:59:in `new'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/remote/http/common.rb:59:in `create_response'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/remote/http/default.rb:66:in `request'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/remote/http/common.rb:40:in `call'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/remote/bridge.rb:640:in `raw_execute'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/remote/bridge.rb:618:in `execute'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/remote/bridge.rb:112:in `get'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/common/navigation.rb:14:in `to'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/selenium-webdriver-2.45.0/lib/selenium/webdriver/common/driver.rb:110:in `get'&#xD;
+/Users/mpahuja/dev/ruby-automation/lib/common/webdriverconnector.rb:27:in `open_url'&#xD;
+/Users/mpahuja/dev/ruby-automation/spec/integration/tools_spec.rb:16:in `block (2 levels) in &lt;top (required)&gt;'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:152:in `instance_exec'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:152:in `block in run'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:222:in `call'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:222:in `call'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-retry-0.3.0/lib/rspec/retry.rb:36:in `block (3 levels) in apply'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-retry-0.3.0/lib/rspec/retry.rb:27:in `times'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-retry-0.3.0/lib/rspec/retry.rb:27:in `block (2 levels) in apply'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:322:in `instance_exec'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:322:in `instance_exec'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/hooks.rb:380:in `execute_with'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/hooks.rb:446:in `block (2 levels) in run'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:222:in `call'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:222:in `call'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/hooks.rb:445:in `run'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/hooks.rb:500:in `run'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:331:in `with_around_example_hooks'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example.rb:149:in `run'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example_group.rb:490:in `block in run_examples'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example_group.rb:486:in `map'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example_group.rb:486:in `run_examples'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/example_group.rb:453:in `run'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/runner.rb:111:in `block (2 levels) in run_specs'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/runner.rb:111:in `map'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/runner.rb:111:in `block in run_specs'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/reporter.rb:53:in `report'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/runner.rb:107:in `run_specs'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/runner.rb:85:in `run'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/runner.rb:69:in `run'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/lib/rspec/core/runner.rb:37:in `invoke'&#xD;
+/Users/mpahuja/.rvm/gems/ruby-1.9.3-p448/gems/rspec-core-3.1.7/exe/rspec:4:in `&lt;top (required)&gt;'&#xD;
+/Users/mpahuja/dev/ruby-automation/bin/rspec:16:in `load'&#xD;
+/Users/mpahuja/dev/ruby-automation/bin/rspec:16:in `&lt;top (required)&gt;'&#xD;
+-e:1:in `load'&#xD;
+-e:1:in `&lt;main&gt;'</stack-trace>
+      </failure>
+      <steps/>
+      <attachments>
+        <attachment source="cd3cbc4092faebbc9d966b3001ff8e002f66c6458a368e41ee9eed9771a85c16-attachment.png" title="should_add_an_item_to_cart_" size="13873" type="image/png"/>
+      </attachments>
+      <labels/>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels/>
+</ns2:test-suite>
