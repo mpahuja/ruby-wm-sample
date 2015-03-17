@@ -1,4 +1,7 @@
-== Use the following steps to setup for WSB Ruby Automation
 
-https://confluence.int.godaddy.com/pages/viewpage.action?pageId=20743709
+Steps to use this repo:
 
+- git clone https://github.com/mpahuja/ruby-wm-sample.git
+- bundle install
+- rake run_tests[spec/integration/*]
+- Checkout the final report at /log/reports/index.html
