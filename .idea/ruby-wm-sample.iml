@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="ModuleRunConfigurationManager">
+    <configuration default="false" name=" should add an item to cart : ruby-wm-sample" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="ruby-wm-sample" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/integration/cart_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE=" should add an item to cart " />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="RVM: ruby-1.9.3-p448" jdkType="RUBY_SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="actionmailer (v3.2.16, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="actionpack (v3.2.16, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activemodel (v3.2.16, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activerecord (v3.2.16, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activeresource (v3.2.16, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activesupport (v3.2.16, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.3.7, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="allure-rspec (v0.6.8, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="allure-ruby-adaptor-api (v0.6.5, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="arel (v3.0.3, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="builder (v3.0.4, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.7.12, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="certified (v1.0.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="chartkick (v1.3.2, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="childprocess (v0.5.5, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.5, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="domain_name (v0.5.23, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.8, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http-cookie (v1.0.2, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="i18n (v0.7.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="journey (v1.0.4, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v1.8.2, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="little-plugger (v1.1.3, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="logeasy (v0.0.8, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="logging (v1.8.2, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="macaddr (v1.7.1, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mail (v2.5.4, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.25.1, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mimemagic (v0.3.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mini_portile (v0.6.2, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.11.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="netrc (v0.10.3, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.6.2, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="parallel (v1.4.1, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="parallel_tests (v1.3.7, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="phantomjs (v1.9.8.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.5, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="properties-ruby (v0.0.4, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack (v1.4.5, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-cache (v1.2, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-ssl (v1.3.4, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.3, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails (v3.2.16, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="railties (v3.2.16, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v10.4.2, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.12.2, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rest-client (v1.8.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec (v3.1.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-core (v3.1.7, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v3.1.2, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-extra-formatters (v1.0.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-legacy_formatters (v1.0.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v3.1.3, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-rails (v3.1.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-retry (v0.4.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-support (v3.1.2, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec_junit_formatter (v0.2.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec_log_formatter (v0.2.1, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubyzip (v1.1.7, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v2.45.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.2.3, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sys-proctable (v0.9.6, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="systemu (v2.6.5, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thor (v0.19.1, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tilt (v1.4.1, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.15, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.43, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unf (v0.1.4, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unf_ext (v0.0.6, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="uuid (v2.3.7, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="websocket (v1.2.1, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="yarjuf (v2.0.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+  </component>
+</module>
